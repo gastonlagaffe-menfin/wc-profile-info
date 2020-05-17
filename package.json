@@ -1,0 +1,25 @@
+{
+  "name": "wc-profile-info",
+  "version": "1.0.0",
+  "description": "Web Component to display employee profile information",
+  "main": "profileInfo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gastonlagaffe-menfin/wc-profile-info.git"
+  },
+  "keywords": [
+    "web",
+    "component",
+    "custom",
+    "element"
+  ],
+  "author": "Gaston Lagaffe16",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gastonlagaffe-menfin/wc-profile-info/issues"
+  },
+  "homepage": "https://github.com/gastonlagaffe-menfin/wc-profile-info#readme"
+}

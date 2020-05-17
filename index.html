@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> <!-- direction: left-to-right text -->
+  <head>
+    <title>Header Image</title>
+    <script type="module">
+      import ProfileInfo from './profileInfo.js';
+      customElements.define('profile-info', ProfileInfo);
+    </script>
+    <style>
+
+    </style>    
+  </head>
+  <body>
+    <div>
+        <profile-info
+            name="John Doe"
+            designation="Frontend Engineer - Marketing"
+            id-number="PRC-1455"
+            picture-src="./john-doe.png"
+            employee-type="ft"> <!-- Based on this attribute, the background color of the image changes -->
+        </profile-info> 
+    </div>
+  </body>
+</html>
